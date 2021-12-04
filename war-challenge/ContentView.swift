@@ -18,49 +18,6 @@ struct ContentView: View {
     @State private var maxReached = false
     
     var body: some View {
-        /*Text("Hello, world!")
-            .foregroundColor(Color.white)
-            .padding(.all)
-            .background(Color.green)
-            .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-            .padding(.all)
-            .background(Color.blue)
-            .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)*/
-        /*VStack {
-            ZStack {
-                Image("toronto")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                VStack {
-                    Text("CN Tower")
-                        .font(.largeTitle)
-                    Text("Toronto")
-                        .font(.caption)
-                }.padding()
-                .background(Color.black)
-                .opacity(0.8)
-                .cornerRadius(10.0)
-                .foregroundColor(Color.white)
-            }.padding()
-            
-            ZStack {
-                Image("london")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                VStack {
-                    Text("Big Ben")
-                        .font(.largeTitle)
-                    Text("London")
-                        .font(.caption)
-                }.padding()
-                .background(Color.black)
-                .opacity(0.8)
-                .cornerRadius(10.0)
-                .foregroundColor(Color.white)
-            }.padding()
-        }*/
         
         ZStack {
             Image("background").ignoresSafeArea()
